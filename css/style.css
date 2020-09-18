@@ -1745,6 +1745,7 @@ p {
   .bg-home, .bg-half {
     padding: 150px 0;
     height: auto;
+    display: none !important;
   }
   .bg-pages {
     padding: 150px 0 90px;
@@ -1752,6 +1753,10 @@ p {
   .bg-modern.bg-animation-right:after {
     display: none;
   }
+}
+
+#about{
+  padding-top: 50px;
 }
 
 .about-hero:before {
