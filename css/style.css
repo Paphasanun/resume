@@ -1329,7 +1329,7 @@
  
  .navbar-custom .navbar-nav .nav-item .nav-link {
    color: #ffffff;
-   font-size: 11px;
+   font-size: 0.8rem;
    background-color: transparent !important;
    margin: 0 8px;
    font-weight: 600;
@@ -1798,12 +1798,12 @@
  }
  
  .interests-desc:hover {
-   background: #f5d6d68c !important;
-   -webkit-box-shadow: 0 10px 25px rgba(60, 72, 88, 0.15);
-           box-shadow: 0 10px 25px rgba(60, 72, 88, 0.15);
-   -webkit-transform: translateY(-5px);
-           transform: translateY(-5px);
-           cursor: pointer;
+   /* background: #f5d6d68c !important;
+   -webkit-box-shadow: 0 5px 5px rgba(60, 72, 88, 0.05);
+           box-shadow: 0 5px 5px rgba(60, 72, 88, 0.05);
+   -webkit-transform: translateY(-2px);
+           transform: translateY(-2px); */
+           cursor:default;
  }
  
  .interests-desc:hover .icon {
@@ -1967,7 +1967,7 @@
    -webkit-transform: translateY(-5px);
            transform: translateY(-5px);
    border-color: transparent !important;
-   cursor: pointer;
+   cursor: default;
  }
  
  .timeline-page .timeline-item .event:hover .title {
@@ -2081,6 +2081,11 @@
            transform: translateY(50%);
    right: 0;
    left: 0;
+ }
+
+ .company-icon{
+  width: 24px;
+  height: 24px;
  }
  
  .portfolio-box .portfolio-box-img .overlay-work .work-content .work-icon {
@@ -2282,7 +2287,7 @@
  }
  
  .sidebar .widget .post-recent .post-recent-content span {
-   font-size: 13px;
+   font-size: 0.8rem;
  }
  
  .sidebar .widget .tagcloud > a {
